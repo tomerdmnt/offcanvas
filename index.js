@@ -33,3 +33,13 @@ OffCanvas.sidebar = function () {
     .remove('active-main')
     .add('active-sidebar');
 }
+
+OffCanvas.next = function () {
+  if (classes(document.body).has('active-nav')) OffCanvas.main();
+  else if (!classes(document.body).has('active-sidebar')) OffCanvas.sidebar();
+}
+
+OffCanvas.prev = function () {
+  if (classes(document.body).has('active-sidebar')) OffCanvas.main();
+  else if (!classes(document.body).has('active-nav')) OffCanvas.nav();
+}

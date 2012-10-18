@@ -37,13 +37,20 @@
 bind to the page (check if javascript exists. add transitions only after load)
 
 ### nav()
-show navigation
+Show navigation
 
 ### main()
-show main
+Show main
 
 ### sidebar()
-show sidebar
+Show sidebar
+
+### next()
+Show the next screen (by position: nav -> main -> sidebar)
+
+### prev()
+Show the previous screen (by position: nav <- main <- sidebar)
+
 
 ## License
 
