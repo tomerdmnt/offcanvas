@@ -1,7 +1,7 @@
 
 # offcanvas
 
-  OffCanvas component as described in http://jasonweaver.name/lab/offcanvas/
+  OffCanvas [component](http://github.com/component/component) as described in http://jasonweaver.name/lab/offcanvas/
   A great way to bring a responsive site up quickly.
 
   ```html
