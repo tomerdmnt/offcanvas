@@ -1,0 +1,115 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+[role="nav"],
+[role="main"],
+[role="sidebar"] {
+  width: 90%;
+  padding: 5%;
+}
+
+.offcanvas-transition [role="nav"],
+.offcanvas-transition [role="main"],
+.offcanvas-transition [role="sidebar"]
+ {
+  transition: .2s all ease;     
+  -webkit-transition: .2s all ease;     
+  -moz-transition: .2s all ease;     
+  -o-transition: .2s all ease;     
+}
+
+.js [role="nav"] { 
+  margin-left: -100%;
+  float: left;
+}
+
+.js [role="main"] {
+  margin-left: 0;
+  float: left;
+}
+
+.js [role="sidebar"] {  
+  margin-right: -200%;
+  float: left;    
+}
+
+.active-nav [role="nav"] { 
+  margin-left: 0; 
+  width: 80%;
+}
+
+.active-nav [role="main"]{
+  margin-right: -100%;
+}
+
+.active-nav [role="sidebar"] {  
+  margin-right: -100%;
+  float: right;   
+}
+
+.active-sidebar [role="nav"] { 
+  margin-left: -100%;
+}
+
+.active-sidebar [role="main"] {
+  margin-left: -90%;  
+}
+
+.active-sidebar [role="sidebar"] {  
+  margin-left: 0;
+  width: 80%; 
+}
+
+@media all and (min-width: 600px) { 
+  .js [role="nav"] {
+    width: 20%; 
+    margin-left: 0;
+  }
+
+  .js [role="main"] {
+    width: 60%;
+    float: left;
+  }
+
+  .js [role="sidebar"] {
+    width: 20%;
+  }       
+
+  .active-sidebar [role="nav"] { 
+    margin-left: -100%;
+  }
+
+  .active-sidebar [role="main"] {
+    margin-left: 0;
+    width: 60%;
+  }
+
+  .active-sidebar [role="sidebar"] {  
+    margin-right: -80%;
+    width: 20%;
+  }       
+}
+
+@media all and (min-width: 800px) { 
+  .js [role="nav"] {
+    width: 19%; 
+    margin-left: 0;
+    float: left;
+    padding: 3%
+  }
+
+  .js [role="main"] {
+    width: 44%;
+    padding: 3%;    
+  }
+
+  .js [role="sidebar"] {
+    width: 19%; 
+    padding: 3%;  
+    margin-right: 0;
+    float: right;
+  }       
+}

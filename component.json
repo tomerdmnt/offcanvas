@@ -1,0 +1,17 @@
+{
+  "name": "offcanvas",
+  "repo": "tomerdmnt/offcanvas",
+  "description": "OffCanvas component as described in http://jasonweaver.name/lab/offcanvas/",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/classes": "*"
+  },
+  "development": {},
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "offcanvas.css"
+  ]
+}
