@@ -7,8 +7,8 @@
 
       window.onkeyup = function (e) {
         console.log(e.which);
-        if (e.which === 39) OffCanvas.next();
-        else if (e.which === 37) OffCanvas.prev();
+        if (e.which === 39) OffCanvas.main()
+        else if (e.which === 37) OffCanvas.nav();
       }
     </script>
     <style>
@@ -22,8 +22,6 @@
     </div>
     <div style="background-color: yellow;" role="main">
       <b>USE THE ARROW KEYS</b>
-    </div>
-    <div style="background-color: purple;" role="sidebar">
     </div>
   </body>
 </html>

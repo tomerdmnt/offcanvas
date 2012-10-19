@@ -10,8 +10,6 @@
       </div>
       <div role="main">
       </div>
-      <div role="sidebar">
-      </div>
     </body>
   ```
 
@@ -23,9 +21,6 @@
 
     // show main
     OffCanvas.main();
-
-    // show sidebar
-    OffCanvas.sidebar();
   ```
 ## Installation
 
@@ -41,16 +36,6 @@ Show navigation
 
 ### main()
 Show main
-
-### sidebar()
-Show sidebar
-
-### next()
-Show the next screen (by position: nav -> main -> sidebar)
-
-### prev()
-Show the previous screen (by position: nav <- main <- sidebar)
-
 
 ## License
 
