@@ -37,6 +37,9 @@ Show navigation
 ### main()
 Show main
 
+### toggle()
+Toggles between nav and main
+
 ## License
 
   MIT
