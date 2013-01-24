@@ -17,12 +17,12 @@ body {
   -o-transition: .2s all ease;     
 }
 
-.js [role="nav"] {
+.offcanvas [role="nav"] {
   float: left;
   margin-left: -100%;
 }
 
-.js [role="main"] {
+.offcanvas [role="main"] {
   margin-left: 0;
   float: left;
 }
@@ -37,24 +37,24 @@ body {
 }
 
 @media all and (min-width: 600px) {
-  .js [role="nav"] {
+  .offcanvas [role="nav"] {
     width: 30%;
     margin-left: 0;
   }
 
-  .js [role="main"] {
+  .offcanvas [role="main"] {
     width: 70%;
     float: left;
   }
 }
 
 @media all and (min-width: 800px) {
-  .js [role="nav"] {
+  .offcanvas [role="nav"] {
     width: 20%;
     margin-left: 0;
   }
 
-  .js [role="main"] {
+  .offcanvas [role="main"] {
     width: 80%;
     float: left;
   }

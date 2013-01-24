@@ -4,13 +4,19 @@ module.exports = OffCanvas
 
 function OffCanvas() {
   window.addEventListener('load', function () {
-    classes(document.body).add('js');
+    classes(document.body).add('offcanvas');
+
     setTimeout(function () {
       classes(document.body).add('offcanvas-transition');
     }, 0);
   });
 
   return OffCanvas;
+}
+
+OffCanvas.toggle = function () {
+  if (classes(document.body).has('active-main')) this.nav();
+  else this.main();
 }
 
 OffCanvas.nav = function () {
