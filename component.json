@@ -2,7 +2,7 @@
   "name": "offcanvas",
   "repo": "tomerdmnt/offcanvas",
   "description": "OffCanvas component as described in http://jasonweaver.name/lab/offcanvas/",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "keywords": [ "ui", "responsive", "mobile", "offcanvas" ],
   "dependencies": {
     "component/classes": "*"
