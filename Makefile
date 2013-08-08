@@ -9,6 +9,6 @@ clean:
 	rm -fr build components template.js
 
 standalone:
-	@component build --standalone offcanvas -n offcanvas -o ./standalone
+	@component build --standalone offcanvas -n OffCanvas -o ./standalone
 
 .PHONY: clean
