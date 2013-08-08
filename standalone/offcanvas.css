@@ -1,0 +1,61 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+[role="nav"],
+[role="main"] {
+  width: 100%;
+}
+
+.offcanvas-transition [role="nav"],
+.offcanvas-transition [role="main"] {
+  transition: .2s all ease;     
+  -webkit-transition: .2s all ease;     
+  -moz-transition: .2s all ease;     
+  -o-transition: .2s all ease;     
+}
+
+.offcanvas [role="nav"] {
+  float: left;
+  margin-left: -100%;
+}
+
+.offcanvas [role="main"] {
+  margin-left: 0;
+  float: left;
+}
+
+.active-nav [role="nav"] {
+  width: 80%;
+  margin-left: 0;
+}
+
+.active-nav [role="main"] {
+  margin-right: -100%;
+}
+
+@media all and (min-width: 600px) {
+  .offcanvas [role="nav"] {
+    width: 30%;
+    margin-left: 0;
+  }
+
+  .offcanvas [role="main"] {
+    width: 70%;
+    float: left;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .offcanvas [role="nav"] {
+    width: 20%;
+    margin-left: 0;
+  }
+
+  .offcanvas [role="main"] {
+    width: 80%;
+    float: left;
+  }
+}
